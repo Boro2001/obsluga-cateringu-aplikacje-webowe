@@ -1,0 +1,23 @@
+{
+    "menu":[
+        {
+            "name": "Barszcz ukraiński",
+            "cousine": "ukraińska",
+            "type": "wegetriańka",
+            "category": "soup",
+            "daily_number": 23,
+            "price": 18.99, 
+            "ingridients": [
+                "burak", 
+                "fasola",
+                "ziemniaki",
+                "brukiew"
+            ],
+            "images" : [
+                "/Users/mikolajborowicz/Documents/GitHub/obsluga-cateringu-aplikacje-webowe/dummy_data/images/photo1.jpg",
+                "/Users/mikolajborowicz/Documents/GitHub/obsluga-cateringu-aplikacje-webowe/dummy_data/images/photo2.jpg",
+                "/Users/mikolajborowicz/Documents/GitHub/obsluga-cateringu-aplikacje-webowe/dummy_data/images/photo3.jpg"
+            ]
+        }
+    ] 
+}
