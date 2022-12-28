@@ -1,10 +1,10 @@
-package com.boro.backend;
+package com.example.backendcatering;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackendApplicationTests {
+class BackendCateringApplicationTests {
 
     @Test
     void contextLoads() {

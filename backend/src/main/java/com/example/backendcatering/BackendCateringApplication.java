@@ -1,13 +1,13 @@
-package com.boro.backend;
+package com.example.backendcatering;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BackendApplication {
+public class BackendCateringApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BackendApplication.class, args);
+        SpringApplication.run(BackendCateringApplication.class, args);
     }
 
 }
