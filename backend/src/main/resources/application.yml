@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://catering-admin:catering-admin-password@mongo-storage.7zu4pph.mongodb.net/?retryWrites=true&w=majority
+      database: cateringdb
