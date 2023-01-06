@@ -1,6 +1,9 @@
 package com.example.backendcatering.controller;
 
 import com.example.backendcatering.model.Course;
+import com.example.backendcatering.service.CourseService;
+import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -8,8 +11,13 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
+@AllArgsConstructor
 @RequestMapping("/courses")
 public class CourseController {
+
+    @Autowired
+    private final CourseService courseService;
+
     @GetMapping("/all")
     public List<Course> getAll(){
         List<Course> courses = new ArrayList<>();
@@ -44,6 +52,11 @@ public class CourseController {
     @PostMapping("/courses")
     public void addCourse(@RequestBody Course course){
 
+    }
+
+    @GetMapping("/courses/{id}")
+    public Course getCourse(@PathVariable("id") Long id ){
+        return courseService.findCourseById(id);
     }
 
 }
