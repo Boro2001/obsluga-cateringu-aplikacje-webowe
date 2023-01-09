@@ -1,2 +1,4 @@
-package com.example.backendcatering.model;public class User {
+package com.example.backendcatering.model;
+
+public class User {
 }

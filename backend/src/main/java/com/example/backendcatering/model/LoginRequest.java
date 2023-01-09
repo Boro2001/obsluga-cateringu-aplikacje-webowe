@@ -1,2 +1,5 @@
-package com.example.backendcatering.model;public class LoginRequest {
+package com.example.backendcatering.model;
+
+public record LoginRequest(String username, String password) {
+
 }

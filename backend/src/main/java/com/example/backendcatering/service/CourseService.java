@@ -25,7 +25,7 @@ public class CourseService {
         return courseRepository.findById(id).orElse(null);
     }
 
-    public Course createCourse(Course course) {
+    public Course addCourse(Course course) {
         return courseRepository.save(course);
     }
 
@@ -36,5 +36,7 @@ public class CourseService {
     public void deleteCourse(Long id) {
         courseRepository.deleteById(id);
     }
+
+    public Boolean existsById(Long id){ return courseRepository.existsById(id);}
 }
 
