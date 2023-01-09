@@ -4,10 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.*;
-import javax.persistence.criteria.CriteriaBuilder;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -17,7 +17,6 @@ import java.util.List;
 @NoArgsConstructor
 public class Course implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private String cousine;
@@ -25,9 +24,9 @@ public class Course implements Serializable {
     private Integer dailyNumber;
     private Double price;
     private String description;
-    @ElementCollection
+
     private List<String> ingridients;
-    @ElementCollection
+
     private List<String> images;
 
     public Course(String name, String cousine, String type, Integer daily_number, Double price, String description, List<String> ingridients, List<String> images) {
