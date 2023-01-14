@@ -1,4 +1,4 @@
-package com.example.backendcatering.configuraiton;
+package com.example.backendcatering.configuration;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
