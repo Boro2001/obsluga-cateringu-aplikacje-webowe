@@ -23,8 +23,8 @@ public class Course implements Serializable {
     private String type;
     private Integer dailyNumber;
     private Double price;
+    private Double grade;
     private String description;
-
     private List<String> ingridients;
 
     private List<String> images;
