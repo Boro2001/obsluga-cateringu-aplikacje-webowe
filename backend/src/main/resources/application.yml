@@ -1,13 +1,5 @@
-jwt:
-  secret: '[a-zA-Z0-9._]^+$Guidelines89797987forAlphabeticalArraNumeralsandOtherSymbo$'
-
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://catering-admin:catering-admin-password@mongo-storage.7zu4pph.mongodb.net/?retryWrites=true&w=majority
+      uri: mongodb+srv://catering-admin:dupa1234@mongo-storage.7zu4pph.mongodb.net/?retryWrites=true&w=majority
       database: cateringdb
-
-
-rsa:
-  private-key: classpath:certs/private.pem
-  public-key: classpath:certs/public.pem
