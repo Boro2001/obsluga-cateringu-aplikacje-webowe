@@ -3,3 +3,8 @@ spring:
     mongodb:
       uri: mongodb+srv://catering-admin:dupa1234@mongo-storage.7zu4pph.mongodb.net/?retryWrites=true&w=majority
       database: cateringdb
+
+com:
+    example:
+        jwtSecret: dupa1234
+        jwtExpirationMs: 86400000

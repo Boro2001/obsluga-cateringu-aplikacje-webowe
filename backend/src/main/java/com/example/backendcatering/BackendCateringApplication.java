@@ -10,7 +10,6 @@ public class BackendCateringApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(BackendCateringApplication.class, args);
-        System.out.println(Sort.Direction.ASC);
     }
 
 }

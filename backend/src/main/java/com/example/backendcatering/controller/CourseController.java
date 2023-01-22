@@ -19,7 +19,7 @@ import java.util.*;
 
 @RestController
 @AllArgsConstructor
-
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class CourseController {
 
     @Autowired
